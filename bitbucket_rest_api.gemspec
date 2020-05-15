@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir['Rakefile', '{features,lib,spec}/**/*', 'README*', 'LICENSE*']
   gem.require_paths = %w[ lib ]
 
-  gem.add_dependency 'hashie', '>= 4.1'
+  gem.add_dependency 'hashie'
   gem.add_dependency 'faraday', '< 2.0'
   gem.add_dependency 'multi_json',  '< 2.0'
   gem.add_dependency 'faraday_middleware', '< 2.0'
