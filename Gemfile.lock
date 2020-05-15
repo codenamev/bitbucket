@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    codenamev_bitbucket_api (0.4.0)
+    codenamev_bitbucket_api (0.4.1)
       faraday (< 2.0)
       faraday_middleware (< 2.0)
       hashie
