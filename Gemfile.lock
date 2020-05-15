@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    reenhanced_bitbucket_api (0.4.0)
+    codenamev_bitbucket_api (0.4.0)
       faraday (< 2.0)
       faraday_middleware (< 2.0)
       hashie (>= 4.1)
@@ -30,8 +30,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  codenamev_bitbucket_api!
   rake
-  reenhanced_bitbucket_api!
 
 BUNDLED WITH
    2.1.4

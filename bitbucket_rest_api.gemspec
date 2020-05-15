@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require File.expand_path('../lib/bitbucket_rest_api/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'reenhanced_bitbucket_api'
+  gem.name          = 'codenamev_bitbucket_api'
   gem.authors       = [ "Mike Cochran", "Valentino Stoll" ]
-  gem.email         = "valentino@reenhanced.com"
-  gem.homepage      = 'https://github.com/reenhanced/bitbucket'
+  gem.email         = "v@codenamev.com"
+  gem.homepage      = 'https://github.com/codenamev/bitbucket'
   gem.summary       = %q{ Ruby wrapper for the BitBucket API supporting OAuth and Basic Authentication }
   gem.description   = %q{ Ruby wrapper for the BitBucket API supporting OAuth and Basic Authentication }
   gem.version       = BitBucket::VERSION::STRING.dup
